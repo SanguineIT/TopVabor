@@ -1,0 +1,60 @@
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.modal-content {
+background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+
+  max-width: 400px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+ 
+@media screen and (max-width: 600px) {
+  .modal-content {
+    max-width: 90%;  
+  }
+}
+
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .css-162n1xm-MuiTableCell-root {
+  
+width: 5%;
+}
+
+.close-button {
+  border: "none" !important;
+  background-color: #fff;
+  background: "transparent";
+  padding: '5px 10px';      
+      
+  cursor: 'pointer';      
+}
+
+
+
+.css-1q46ej4-MuiDrawer-docked .MuiDrawer-paper{
+  width: 240px !important;
+}
+
+.css-1w6xj8r-MuiPaper-root-MuiAppBar-root{
+  width: calc(100% - 240px) !important;
+}
+.css-1q46ej4-MuiDrawer-docked{
+  width: 240px !important;
+}
+.car-detais{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
