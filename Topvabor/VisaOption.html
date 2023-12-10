@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <nav class="navbar  navbar_Topvabor">
+            <div class="container-fluid">
+                <a class="navbar-brand" href=""><img src="img/topvabor_logo.png" alt=""></a>
+                <form class="d-flex search_bar" role="search">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                            aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <g clip-path="url(#clip0_75_9692)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.5 4.00001C8.77609 4.00001 7.12279 4.68483 5.90381 5.90382C4.68482 7.1228 4 8.7761 4 10.5C4 12.2239 4.68482 13.8772 5.90381 15.0962C7.12279 16.3152 8.77609 17 10.5 17C12.2239 17 13.8772 16.3152 15.0962 15.0962C16.3152 13.8772 17 12.2239 17 10.5C17 8.7761 16.3152 7.1228 15.0962 5.90382C13.8772 4.68483 12.2239 4.00001 10.5 4.00001ZM2 10.5C2.00012 9.1446 2.32436 7.80887 2.94569 6.60427C3.56702 5.39966 4.46742 4.3611 5.57175 3.57525C6.67609 2.78939 7.95235 2.27902 9.29404 2.08672C10.6357 1.89442 12.004 2.02576 13.2846 2.46979C14.5652 2.91382 15.7211 3.65766 16.6557 4.63925C17.5904 5.62084 18.2768 6.81171 18.6576 8.11252C19.0384 9.41333 19.1026 10.7864 18.8449 12.117C18.5872 13.4477 18.015 14.6975 17.176 15.762L20.828 19.414C21.0102 19.6026 21.111 19.8552 21.1087 20.1174C21.1064 20.3796 21.0012 20.6304 20.8158 20.8158C20.6304 21.0012 20.3796 21.1064 20.1174 21.1087C19.8552 21.111 19.6026 21.0102 19.414 20.828L15.762 17.176C14.5086 18.164 13.0024 18.7792 11.4157 18.9511C9.82905 19.123 8.22602 18.8448 6.79009 18.1482C5.35417 17.4517 4.14336 16.3649 3.29623 15.0123C2.44911 13.6597 1.99989 12.096 2 10.5ZM9.5 7.00001C9.5 6.73479 9.60536 6.48044 9.79289 6.2929C9.98043 6.10537 10.2348 6.00001 10.5 6.00001C11.6935 6.00001 12.8381 6.47412 13.682 7.31803C14.5259 8.16194 15 9.30654 15 10.5C15 10.7652 14.8946 11.0196 14.7071 11.2071C14.5196 11.3947 14.2652 11.5 14 11.5C13.7348 11.5 13.4804 11.3947 13.2929 11.2071C13.1054 11.0196 13 10.7652 13 10.5C13 9.83697 12.7366 9.20108 12.2678 8.73224C11.7989 8.2634 11.163 8.00001 10.5 8.00001C10.2348 8.00001 9.98043 7.89465 9.79289 7.70712C9.60536 7.51958 9.5 7.26523 9.5 7.00001Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_75_9692">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg></span>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn profile-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="img/profileimg.png" alt="">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- end -->
+
+    <div class="container-fluid VisaOption_section ">
+        <div class="row VisaOption_topbar_section position-relative">
+            <a href="category.html" class="back_arrow_hp"><i class="fa-solid fa-arrow-left"></i></a>
+            <div class="col-12">
+                <div class="VisaOption_topbar_heading text-center">
+                    <h1>Choose Visa Option</h1>
+                    <p>Your Key to the Best Visa Deal</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-3">
+                <div class="VisaOption_item" style="background-image: url(img/VisaOption_item_bg1.png);">
+                    <p>1 Month</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-3">
+                <div class="VisaOption_item">
+                    <p>2 Month</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-3">
+                <div class="VisaOption_item">
+                    <p>3 Month</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
+        integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elements = document.querySelectorAll('.VisaOption_item');
+
+            elements.forEach(function (element) {
+                element.addEventListener('click', function () {
+                    window.location.href = 'http://127.0.0.1:5500/VisaDocUpload.html';
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
